@@ -71,6 +71,7 @@ class Zoho {
     return $data;
   }
 
+  //function rewrited
   public function check_successful_xml($response) {
     $html = new DOMDocument();
     $html->loadXML($response);
